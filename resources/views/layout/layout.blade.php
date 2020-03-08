@@ -23,11 +23,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700" rel="stylesheet">
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="{{asset('architect/css/animate.css')}}">
+	<link rel="stylesheet" href="architect/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="{{asset('architect/css/icomoon.css')}}">
+	<link rel="stylesheet" href="architect/css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="{{asset('architect/css/bootstrap.css')}}">
+	<link rel="stylesheet" href="architect/css/bootstrap.css">
 
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="{{asset('architect/css/magnific-popup.css')}}">
