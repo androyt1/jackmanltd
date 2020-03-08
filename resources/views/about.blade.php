@@ -15,11 +15,11 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-2">
-							<div id="colorlib-logo"><a href="index.html">JackMan</a></div>
+						<div id="colorlib-logo"><a href="{{url('/')}}">JackMan</a></div>
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li><a href="{{url('index')}}">Home</a></li>
+								<li><a href="{{url('/')}}">Home</a></li>
 								<li>
 									<a href="{{url('work')}}">Projects</a>
 									
@@ -64,7 +64,7 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<img class="img-responsive" src="{{asset('architect/images/img_bg_4.jpg')}}" alt="Free HTML5 Bootstrap Template by colorlib.com">
+						<img class="img-responsive" src="architect/images/img_bg_4.jpg" alt="Free HTML5 Bootstrap Template by colorlib.com">
 					</div>
 				</div>
 				<div class="row">
@@ -127,7 +127,7 @@
 									<div class="testimony-slide active">
 										<div class="testimony-wrap">
 											<figure>
-												<img src="{{asset('architect/images/person1.jpg')}}" alt="user">
+												<img src="architect/images/person1.jpg" alt="user">
 											</figure>
 											<blockquote>
 												<span>Andrew Field</span>
@@ -140,7 +140,7 @@
 									<div class="testimony-slide active">
 										<div class="testimony-wrap">
 											<figure>
-												<img src="{{asset('architect/images/person2.jpg')}}" alt="user">
+												<img src="architect/images/person2.jpg" alt="user">
 											</figure>
 											<blockquote>
 												<span>Mark Bubble</span>
@@ -153,7 +153,7 @@
 									<div class="testimony-slide active">
 										<div class="testimony-wrap">
 											<figure>
-												<img src="{{asset('architect/images/person3.jpg')}}" alt="user">
+												<img src="architect/images/person3.jpg" alt="user">
 											</figure>
 											<blockquote>
 												<span>Adam Smith</span>

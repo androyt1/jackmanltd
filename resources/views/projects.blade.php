@@ -14,11 +14,11 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-2">
-							<div id="colorlib-logo"><a href="index.html">JackMan </a></div>
+						<div id="colorlib-logo"><a href="{{url('/')}}">JackMan </a></div>
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-                            <li><a href="{{url('index')}}">Home</a></li>
+                            <li><a href="{{url('/')}}">Home</a></li>
 								<li>
 									<a href="{{url('work')}}">Projects</a>
 									
@@ -145,7 +145,7 @@
 							<div class="col-md-12 animate-box">
 								<div class="owl-carousel owl-carousel2 project-wrap">
 									<div class="item">
-										<a href="{{asset('architect/images/building-1.jpg')}}" class="project image-popup-link" style="background-image: url(architect/images/building-1.jpg);">
+										<a href="architect/images/building-1.jpg" class="project image-popup-link" style="background-image: url(architect/images/building-1.jpg);">
 											<div class="desc-t">
 												<div class="desc-tc">
 													<div class="desc">
@@ -157,7 +157,7 @@
 										</a>
 									</div>
 									<div class="item">
-										<a href="{{asset('architect/images/building-2.jpg')}}" class="project image-popup-link" style="background-image: url(architect/images/building-2.jpg);">
+										<a href="architect/images/building-2.jpg" class="project image-popup-link" style="background-image: url(architect/images/building-2.jpg);">
 											<div class="desc-t">
 												<div class="desc-tc">
 													<div class="desc">
@@ -169,7 +169,7 @@
 										</a>
 									</div>
 									<div class="item">
-										<a href="{{asset('architect/images/building-3.jpg')}}" class="project image-popup-link" style="background-image: url(architect/images/building-3.jpg);">
+										<a href="architect/images/building-3.jpg" class="project image-popup-link" style="background-image: url(architect/images/building-3.jpg);">
 											<div class="desc-t">
 												<div class="desc-tc">
 													<div class="desc">
