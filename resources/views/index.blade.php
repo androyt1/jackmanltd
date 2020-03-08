@@ -128,7 +128,7 @@
 										</a>
 									</div>
 									<div class="item">
-										<a href="{{asset('architect/images/building-2.jpg')}}" class="project image-popup-link" style="background-image: url(architect/images/building-2.jpg);">
+										<a href="architect/images/building-2.jpg" class="project image-popup-link" style="background-image: url(architect/images/building-2.jpg);">
 											<div class="desc-t">
 												<div class="desc-tc">
 													<div class="desc">
@@ -140,7 +140,7 @@
 										</a>
 									</div>
 									<div class="item">
-										<a href="{{asset('architect/images/building-3.jpg')}}" class="project image-popup-link" style="background-image: url(architect/images/building-3.jpg);">
+										<a href="architect/images/building-3.jpg" class="project image-popup-link" style="background-image: url(architect/images/building-3.jpg);">
 											<div class="desc-t">
 												<div class="desc-tc">
 													<div class="desc">
@@ -365,7 +365,7 @@
 									<div class="testimony-slide active">
 										<div class="testimony-wrap">
 											<figure>
-												<img src="{{asset('architect/images/person1.jpg')}}" alt="user">
+												<img src="architect/images/person1.jpg" alt="user">
 											</figure>
 											<blockquote>
 												<span>Andrew Field</span>
@@ -378,7 +378,7 @@
 									<div class="testimony-slide active">
 										<div class="testimony-wrap">
 											<figure>
-												<img src="{{asset('architect/images/person2.jpg')}}" alt="user">
+												<img src="architect/images/person2.jpg" alt="user">
 											</figure>
 											<blockquote>
 												<span>Mark Bubble</span>
@@ -391,7 +391,7 @@
 									<div class="testimony-slide active">
 										<div class="testimony-wrap">
 											<figure>
-												<img src="{{asset('architect/images/person3.jpg')}}" alt="user">
+												<img src="architect/images/person3.jpg" alt="user">
 											</figure>
 											<blockquote>
 												<span>Adam Smith</span>
