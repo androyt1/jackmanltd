@@ -30,23 +30,23 @@
 	<link rel="stylesheet" href="architect/css/bootstrap.css">
 
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="{{asset('architect/css/magnific-popup.css')}}">
+	<link rel="stylesheet" href="architect/css/magnific-popup.css">
 
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="{{asset('architect/css/flexslider.css')}}">
+	<link rel="stylesheet" href="architect/css/flexslider.css">
 
 	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="{{asset('architect/css/owl.carousel.min.css')}}">
+	<link rel="stylesheet" href="architect/css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	
 	<!-- Flaticons  -->
-	<link rel="stylesheet" href="{{asset('architect/fonts/flaticon/font/flaticon.css')}}">
+	<link rel="stylesheet" href="architect/fonts/flaticon/font/flaticon.css">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="{{asset('architect/css/style.css')}}">
+	<link rel="stylesheet" href="architect/css/style.css">
 
 	<!-- Modernizr JS -->
-	<script src="{{asset('architect/js/modernizr-2.6.2.min.js')}}"></script>
+	<script src="architect/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -59,26 +59,26 @@
 
 
     	<!-- jQuery -->
-	<script src="{{asset('architect/js/jquery.min.js')}}"></script>
+	<script src="architect/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="{{asset('architect/js/jquery.easing.1.3.js')}}"></script>
+	<script src="architect/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="{{asset('architect/js/bootstrap.min.js')}}"></script>
+	<script src="architect/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="{{asset('architect/js/jquery.waypoints.min.js')}}"></script>
+	<script src="architect/js/jquery.waypoints.min.js"></script>
 	<!-- Stellar Parallax -->
-	<script src="{{asset('architect/js/jquery.stellar.min.js')}}"></script>
+	<script src="architect/js/jquery.stellar.min.js"></script>
 	<!-- Flexslider -->
-	<script src="{{asset('architect/js/jquery.flexslider-min.js')}}"></script>
+	<script src="architect/js/jquery.flexslider-min.js"></script>
 	<!-- Owl carousel -->
-	<script src="{{asset('architect/js/owl.carousel.min.js')}}"></script>
+	<script src="architect/js/owl.carousel.min.js"></script>
 	<!-- Magnific Popup -->
-	<script src="{{asset('architect/js/jquery.magnific-popup.min.js')}}"></script>
-	<script src="{{asset('architect/js/magnific-popup-options.js')}}"></script>
+	<script src="architect/js/jquery.magnific-popup.min.js"></script>
+	<script src="architect/js/magnific-popup-options.js"></script>
 	<!-- Counters -->
-	<script src="{{asset('architect/js/jquery.countTo.js')}}"></script>
+	<script src="architect/js/jquery.countTo.js"></script>
 	<!-- Main -->
-	<script src="{{asset('architect/js/main.js')}}"></script>
+	<script src="architect/js/main.js"></script>
 
 	</body>
 </html>
