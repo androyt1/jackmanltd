@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Http\Request;
+use app\Mail\ContactMail;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,12 +31,17 @@ Route::get('blog', function () {
 Route::get('about', function () {
     return view('about');
 });
-Route::get('contact', function () {
+Route::get('/contact', function () {
     return view('contact');
 });
+Route::post('/contact', function (Request $request) {
+    Mail::send(new ContactMail($request));
+    return redirect('/contact');
+})->name('contact.post');
 Route::get('commercial', function () {
     return view('commercial');
 });
+
 
 
 
