@@ -76,7 +76,7 @@
 					</div>
 					<div class="col-md-10 col-md-offset-1 animate-box">
 						<h2>Get In Touch</h2>
-					<form action="{{route('contact.post')}}" method="POST">
+					<form action="{{route('contact.store')}}" method="POST">
 						@csrf
 							<div class="row form-group">
 								<div class="col-md-6">
@@ -109,10 +109,21 @@
 									<textarea name="message"  cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
 								</div>
 							</div>
+						
 							<div class="form-group">
+								<p><div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"></div></p>
 								<input type="submit" value="Send Message" class="btn btn-primary">
 							</div>
-
+							@if(session()->has('success'))
+								<div class="alert alert-success">{{session()->get('success')}}</div>
+							@endif
+							@if($errors->any())
+								<div class="alert alert-danger">
+									@foreach($errors->all() as $error)
+										<li>{{$error}}</li>
+									@endforeach
+								</div>
+							@endif
 						</form>		
 					</div>
 				</div>

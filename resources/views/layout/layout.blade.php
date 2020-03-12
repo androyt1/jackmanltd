@@ -19,7 +19,7 @@
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
-
+	
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700" rel="stylesheet">
 	
 	<!-- Animate.css -->
@@ -46,6 +46,7 @@
 	<link rel="stylesheet" href="architect/css/style.css">
 
 	<!-- Modernizr JS -->
+	<script src="https://www.google.com/recaptcha/api.js"></script>
 	<script src="architect/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
